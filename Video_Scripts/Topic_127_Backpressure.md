@@ -108,4 +108,4 @@ The term "backpressure" comes from fluid dynamics. Literally: pressure that oppo
 
 ## Next Video
 
-That wraps up this series on system design fundamentals. You've got the building blocks. Requirements. Capacity. Scale. Resilience. Sync and async. Queues and RPC. Backpressure. Use them well. See you in the next series.
+You've got the thinking framework: requirements, capacity, scale, resilience, sync and async, queues, backpressure. Now let's learn the building blocks in depth. Starting with networking—how does your browser actually talk to a server? What are GET, POST, PUT, DELETE? Next: **HTTP methods**. The language of the web.

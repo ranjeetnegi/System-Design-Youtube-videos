@@ -112,4 +112,4 @@ Service mesh = security guard for every service. Sidecar handles TLS, retries, o
 
 ## Next Video
 
-Next up: **WebSockets**—walkie-talkie vs phone call. Full-duplex. Both sides talk whenever they want. No "press to talk."
+The service mesh handles communication between services. But how do services FIND each other in the first place? IP addresses change. Containers scale up and down. Next: **Service discovery**—how services locate each other dynamically. DNS, registries, and the patterns that make microservices work. See you there.

@@ -121,4 +121,4 @@ Cloudflare serves over 50 million HTTP requests per second across their CDN. Tha
 
 ## Next Video
 
-Next: APIs from the ground up. What is an endpoint? REST basics. Topic 96: What Is an API Endpoint?
+You've learned about caching at every layer. But when do you use a read replica vs a cache? Or both? They solve similar problems differently. Next: **Read replica vs cache**—when to use which. The decision that shapes your architecture. See you there.

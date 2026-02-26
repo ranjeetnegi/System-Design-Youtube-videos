@@ -134,4 +134,4 @@ Vacuum bag for data. Same stuff, less space. Unpack when you need it. Same data,
 
 ## Next Video
 
-Why does every big system use cache? Latency. Load. One library visit vs a million. Next: Why cache?
+You store data. You compress it. But how do you NAME each record? Auto-increment? Random UUID? At scale, those break. Next: **Unique ID generation**—UUID, auto-increment, and their limits. The invisible problem that shows up in every system design. See you there.

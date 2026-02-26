@@ -101,4 +101,4 @@ Monotonic reads don't guarantee you see the latest data. You might be stuck on a
 
 ## Next Video
 
-Next up: **Hybrid Logical Clocks** — two clocks. One real. One logical. Combine them. Get ordering AND real time. How? Physical clocks drift. Logical clocks lack real time. HLC gives you both. Staff-level distributed systems thinking.
+Next: **Network partition.** What happens when the link fails? Two servers. One cable. It snaps. They can't talk. In distributed systems, that's not rare. It's inevitable. And it forces impossible choices. See you there.

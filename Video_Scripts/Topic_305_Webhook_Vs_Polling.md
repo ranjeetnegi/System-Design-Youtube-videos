@@ -85,4 +85,4 @@ When the client can't receive push (firewall, mobile background limits), polling
 
 ## Next Video
 
-Up next: Idempotency keys—how to stop that double-click from charging twice. See you there.
+APIs send data. But in what format? JSON is human-readable but bulky. Protobuf is compact but needs a schema. Avro is great for streaming. Next: **Data serialization—JSON vs Protobuf vs Avro.** The format you pick affects speed, size, and compatibility. See you there.

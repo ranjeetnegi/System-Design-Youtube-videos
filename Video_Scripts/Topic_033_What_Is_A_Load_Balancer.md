@@ -114,4 +114,4 @@ Google handles millions of queries per second. Their load balancing system — *
 
 ## Next Video
 
-The load balancer sends you to a server. But how did you find the load balancer in the first place? You typed "google.com" — not an IP address. There's a phone book that translates names to addresses. And it runs the entire internet. Next: What is DNS?
+The load balancer distributes traffic. But HOW does it decide which server gets the next request? Random? Round robin? Least loaded? Next: **Load balancing algorithms**—Round Robin, Least Connections, Weighted. Each has trade-offs. The right choice depends on your workload. See you there.

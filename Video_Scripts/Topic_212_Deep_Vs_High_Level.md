@@ -117,4 +117,4 @@ Interviewers often have a "deep dive" in mind when they give a problem. For "des
 
 ## Next Video
 
-That wraps up our Staff-level interview series. Check the playlist for more on system design at scale.
+You have the mindset. You have the framework. Now let's put it to work. Time to design real systems. First up: **URL shortener**—problem and requirements. The classic interview warm-up. Simple on the surface. Tricky at scale. Let's go.

@@ -115,4 +115,4 @@ CQRS = two counters. One for orders (writes). One for menu and status (reads). O
 
 ## Next Video
 
-That wraps up this set! You've covered data residency, failover, monoliths, microservices, event-driven architecture, serverless, API gateways, service mesh, WebSockets, polling strategies, SSE, pagination, event sourcing, and CQRS. Solid foundation for system design at scale.
+You've got the architecture toolkit: monoliths, microservices, event-driven, serverless, API gateways, service mesh, WebSockets, pagination, CQRS. Now let's shift gears. What does it mean to think at **Staff level**? What changes between L5 and L6? Next: **L5 vs L6—what changes in system design.** The mindset shift that separates senior from Staff. See you there.

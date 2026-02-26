@@ -86,4 +86,4 @@ Start with game days. Planned chaos. Learn. Fix. Then automate. Chaos engineerin
 
 ## Next Video
 
-That's it for this batch. More system design deep dives coming. Subscribe so you don't miss them. See you in the next one.
+You've learned how systems fail and how to survive it. But what about GEOGRAPHY? What if your only data center loses power? Next: **Why multi-region?** Latency and availability. Why one datacenter isn't enough for the world. See you there.

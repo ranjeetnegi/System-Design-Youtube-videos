@@ -107,4 +107,4 @@ Martin Kleppmann's 2016 blog post "How to do distributed locking" criticized Red
 
 ## Next Video
 
-Next: **Why Multi-Region?** Latency and availability. Why one datacenter isn't enough for the world. Stay tuned.
+One slow service can melt everything. But what if you could CONTAIN the damage? Put a wall around it? Next: **Bulkheads—isolating failure.** Like watertight compartments in a ship. One floods, the rest stay dry. See you there.

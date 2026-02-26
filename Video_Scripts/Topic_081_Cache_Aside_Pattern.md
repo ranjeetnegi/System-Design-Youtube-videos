@@ -6,17 +6,17 @@
 
 ## The Hook (20-30 seconds)
 
-Your desk. A library. A book you need. You check your desk first—nothing. You walk to the library, grab the book, bring it back, and leave a copy on your desk. Next time? It's right there. You didn't pre-load your desk with every book in the building. Only what you actually needed. That moment of realization? That's cache-aside.
+Your friend gives you their new phone number. You don't memorize all 300 contacts in your phone. You only save numbers when someone actually calls or texts you. First time? You look them up: "Hey, what's your number?" They tell you. You save it. Next time they call? Their name pops up instantly. You didn't pre-load every number in the city directory. Only the ones you actually needed. That's cache-aside.
 
 ---
 
 ## The Story
 
-Priya is studying for her exams. The library is across campus. Fifteen minutes to walk there. Fifteen minutes back. Every time she needs a reference book, she makes that journey. Exhausting.
+Aarav just started a new job. He needs to call different teams constantly. Finance. HR. IT support. Legal. Every time he needs a number, he looks it up in the company directory—a big PDF buried three clicks deep in the intranet. Find the department. Scroll. Find the name. Copy the number. Dial. Takes two minutes each time. Exhausting.
 
-One day she tries something different. Before leaving, she checks her desk. Is the book already there? Not this time. So she walks to the library. Finds it. Brings it back. But here's the key: she doesn't put it away in her shelf immediately. She leaves a copy right there on her desk. The next time she needs that same book—maybe in an hour, maybe the next day—she glances at her desk first. There it is. No walk. No wait. Instant.
+One day he tries something different. Before looking up the directory, he checks his phone's recent calls and saved contacts. Is the number already there? Not this time. So he digs through the directory. Finds the IT support number. Dials. But here's the key: after the call, he saves the number in his phone. "IT Support — Ext 4455." The next time he needs IT? He taps the saved contact. Instant. No directory. No scrolling. No waiting.
 
-She doesn't fill her desk with every book in the library. That would be madness. She only keeps what she's actually requested. Lazy. On-demand. Her desk fills only when she asks for something. No guessing. No pre-loading shelves with books she might never need. Just what she uses. When she uses it.
+He doesn't save every number in the company directory. That would be hundreds of entries he'll never call. He only saves what he's actually dialed. Lazy. On-demand. His contacts list fills only when he actually needs someone. No guessing. No bulk imports. Just what he uses. When he uses it.
 
 That's exactly how cache-aside works. The application checks the cache first. Hit? Return cached data. Miss? Go to the database, fetch the data, store it in the cache, return it. The cache fills only when someone actually asks for something. Simple. Efficient. Proven.
 

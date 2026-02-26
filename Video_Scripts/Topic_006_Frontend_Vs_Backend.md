@@ -6,22 +6,22 @@
 
 ## Hook (20-30 seconds)
 
-You walk into a restaurant. What do you see? Beautiful tables. Soft lighting. Music in the background. A menu with nice pictures. Colors that make you feel welcome. You sit down. You order. You eat. This is the **dining area**. But where is the food made? In the kitchen. You don't see it. You don't go there. The kitchen has different rules. Chefs. Heat. Ingredients. Noise. You'd never put a customer in the middle of that. Two different worlds. One experience. In software, we call them **frontend** and **backend**. And understanding this split will change how you see every app on your phone. Let me show you.
+You walk into a hospital. What do you see? A clean reception area. Comfortable chairs. A smiling receptionist behind a desk. Signs that say "Cardiology: Floor 2" and "Pharmacy: Ground Floor." Screens showing your queue number. You check in. You wait. A nurse calls your name. This is the **reception area**. But where does the real medicine happen? In the operating rooms. The labs. The pharmacy. You don't go there. You don't see the MRI machine. You don't watch blood samples being tested. Two different worlds. One experience. In software, we call them **frontend** and **backend**. And understanding this split will change how you see every app on your phone. Let me show you.
 
 ---
 
 ## The Big Analogy
 
-Let's describe the restaurant in detail.
+Let's describe the hospital in detail.
 
-**The dining area (Frontend):** This is what customers see. The decorations on the wall. The color of the tablecloth. The font on the menu. The way the waiter presents the plate. The music playing. The lighting. Everything is designed for one thing: your experience. You sit here. You order here. You eat here. It's pretty. It's for *you*. It's meant to be pleasant, clear, easy. The dining room doesn't cook. It doesn't store food. It just presents and receives.
+**The reception area (Frontend):** This is what patients see. The signboards. The queue display. The check-in counter. The forms you fill out. The waiting area with magazines and a TV. Everything is designed for one thing: your experience. You check in here. You wait here. You get directions here. It's organized. It's for *you*. It's meant to be pleasant, clear, easy. The reception doesn't diagnose. It doesn't do surgery. It just presents information and receives your input.
 
-**The kitchen (Backend):** Hidden from customers. Behind a door. Or a curtain. Inside: chefs cook. Fridges store ingredients. Ovens heat food. Knives cut. Orders come in. Food goes out. The real work happens here. The recipes. The timing. The inventory. You don't see it. You don't need to. But you'd get no food without it. No kitchen? No restaurant. The dining room would be empty. Just pretty tables and no meal.
+**The medical rooms (Backend):** Hidden from patients until needed. Behind doors marked "Staff Only." Inside: doctors diagnose. Lab technicians run blood tests. Pharmacists prepare prescriptions. Surgeons operate. X-ray machines scan. Patient records are stored and updated. The real work happens here. The diagnosis. The treatment. The medical history. You don't see most of it. You don't need to. But you'd get no healthcare without it. No labs, no doctors, no pharmacy? The reception would be an empty desk with no help to give.
 
 **Frontend = what you see.**  
 **Backend = what does the work.**
 
-The waiter connects them. In software, the API connects frontend and backend.
+The nurse connects them. In software, the API connects frontend and backend.
 
 ---
 
@@ -45,33 +45,33 @@ Backend = brain and muscles.
 ## Let's Look at the Diagram
 
 ```
-    RESTAURANT                          SOFTWARE APP
+    HOSPITAL                            SOFTWARE APP
     
     ┌─────────────────┐                 ┌─────────────────┐
-    │   DINING ROOM   │                 │    FRONTEND     │
+    │   RECEPTION     │                 │    FRONTEND     │
     │   (Frontend)    │                 │  (What you see)  │
     │                 │                 │                  │
-    │  • Tables       │                 │  • Buttons       │
-    │  • Menu         │    ========     │  • Colors        │
-    │  • Decor        │                 │  • Layout        │
+    │  • Check-in     │                 │  • Buttons       │
+    │  • Queue screen │    ========     │  • Colors        │
+    │  • Signboards   │                 │  • Layout        │
     │  • You sit here │                 │  • Runs in       │
     │                 │                 │    browser/app   │
     └────────┬────────┘                 └────────┬────────┘
              │                                   │
-             │        (waiter carries)           │    (API carries)
+             │        (nurse escorts)            │    (API carries)
              │                                   │
     ┌────────▼────────┐                 ┌────────▼────────┐
-    │    KITCHEN       │                 │    BACKEND      │
+    │   MEDICAL ROOMS  │                 │    BACKEND      │
     │   (Backend)     │                 │ (What does work)│
     │                 │                 │                  │
-    │  • Chefs cook   │                 │  • Saves data    │
-    │  • Fridge       │                 │  • Finds data    │
-    │  • Ovens        │                 │  • Logic, rules  │
+    │  • Doctors      │                 │  • Saves data    │
+    │  • Labs         │                 │  • Finds data    │
+    │  • Pharmacy     │                 │  • Logic, rules  │
     │  • Hidden       │                 │  • Runs on server│
     └─────────────────┘                 └─────────────────┘
 ```
 
-Top half: what you see. Bottom half: what does the work. The line in the middle: the waiter, the API. They connect the two worlds.
+Top half: what you see. Bottom half: what does the work. The line in the middle: the nurse, the API. They connect the two worlds.
 
 ---
 
@@ -95,7 +95,7 @@ Some companies have **10 times more backend engineers than frontend**. Why? Beca
 
 ## What Could Go Wrong? (Mini-Story)
 
-The dining room looks amazing. Beautiful tables. Great music. A fancy menu. You sit down. You order. You wait. The waiter goes to the kitchen. Comes back. "Sorry. We're out of everything." The kitchen has no ingredients. No chef. No stove working. Nothing. The dining room is perfect. But there's no food. Beautiful shell. Empty inside.
+The reception area is spotless. Modern chairs. Digital queue boards. Friendly staff. You check in. You sit down. A nurse calls your name. You walk into the doctor's office. Empty desk. No computer. No medical records system. The doctor says: "Sorry, our systems are down. I can't see your history. I can't order tests. I can't write prescriptions." The reception was perfect. But behind it? Nothing works. Beautiful shell. Empty inside.
 
 In software, that's a **pretty frontend with a broken backend**. The app looks great. Nice colors. Smooth animations. But when you tap "Login," nothing happens. When you try to save, nothing is saved. When you search, you get no results. The frontend is fine. The backend is broken. Users get frustrated. "It looks so good. Why doesn't it work?" Always need both. Frontend for experience. Backend for function. One without the other is useless.
 
@@ -105,7 +105,7 @@ In software, that's a **pretty frontend with a broken backend**. The app looks g
 
 - **Frontend** = what you see and interact with (buttons, colors, layout). Runs in your browser or app.
 - **Backend** = the server-side logic that saves data, finds data, and does the real work. You don't see it.
-- Frontend = dining room. Backend = kitchen. Or: frontend = magic show, backend = backstage.
+- Frontend = hospital reception. Backend = medical rooms. Or: frontend = magic show, backend = backstage.
 - A great app needs both: a good-looking frontend and a working backend.
 - Some companies have far more backend engineers—the hidden work is huge.
 
@@ -113,7 +113,7 @@ In software, that's a **pretty frontend with a broken backend**. The app looks g
 
 ## One-Liner to Remember
 
-> **Frontend is what you see. Backend is what does the work. Like the dining room and the kitchen.**
+> **Frontend is what you see. Backend is what does the work. Like the reception and the operating room.**
 
 ---
 

@@ -12,15 +12,13 @@ You open Google. You type "cute puppies." You hit Enter. In less than a second, 
 
 ## The Big Analogy
 
-Picture yourself at a restaurant again. You sit at the table. You're hungry. You want pizza.
-
-Here's the key: **you never go into the kitchen.** You don't walk past the waiter. You don't open the oven. You stay at your table. You ask the waiter. The waiter goes to the kitchen. The kitchen makes the food. The kitchen doesn't come to you. The kitchen stays in the back. The waiter brings the food to you.
+You pick up the phone. You call customer support. You have a question about your electricity bill. You dial the number. Someone picks up. You ask: "Why is my bill so high this month?" The person on the other end has your account details. Your history. Your usage data. They check. They answer: "You used 30% more power this month because of the air conditioner."
 
 You = the one who **asks**. You are the **client**.
 
-The kitchen = the one who **answers**. The kitchen has the food, the ingredients, the skills. The kitchen is the **server**.
+The support agent = the one who **answers**. They have the data, the system, the tools. They are the **server**.
 
-You ask. The kitchen answers. The waiter is just the messenger. That's it. Client asks. Server answers. You don't go to the server. The server doesn't come to you. There's a clear line. And on the internet, that line is everywhere.
+Here's the key: **you never go to their office.** You don't walk into their building. You don't sit at their computer and look up your account. You stay at your home. They stay at their desk. The phone line connects you. You ask. They answer. That's it. Client asks. Server answers. You don't go to the server. The server doesn't come to you. There's a clear line. And on the internet, that line is everywhere.
 
 ---
 
@@ -45,18 +43,18 @@ You type a URL. Your browser (client) says: "Give me this page." The server says
 ## Let's Look at the Diagram
 
 ```
-              RESTAURANT = INTERNET
+              PHONE CALL = INTERNET
               
-    YOU (Client)                    KITCHEN (Server)
-    ─────────────                  ─────────────────
+    YOU (Client)                    SUPPORT AGENT (Server)
+    ─────────────                  ─────────────────────
     
-         [You]                          [Chef]
+         [You]                          [Agent]
            │                                │
-           │  "I want pizza"                │
+           │  "Why is my bill high?"        │
            │ ──────────────────────────►   │
-           │                                │  makes pizza
+           │                                │  looks up account
            │                                │
-           │  "Here is your pizza"          │
+           │  "You used 30% more power"    │
            │  ◄──────────────────────────  │
            │                                │
            
@@ -64,7 +62,7 @@ You type a URL. Your browser (client) says: "Give me this page." The server says
     (browser, app, you)              (computer with data)
 ```
 
-See the arrows? You send a request (the order). The kitchen receives it. The kitchen works. The kitchen sends back a response (the pizza). You receive it. That's the full cycle. Client asks. Server answers. Every website works this way.
+See the arrows? You send a request (the question). The agent receives it. The agent looks up your data. The agent sends back a response (the answer). You receive it. That's the full cycle. Client asks. Server answers. Every website works this way.
 
 ---
 
@@ -86,7 +84,7 @@ Your phone is a client to more than 100 servers every day. Without you knowing. 
 
 ## What Could Go Wrong? (Mini-Story)
 
-The restaurant is closed. You go. You knock on the door. No one opens. You wait. Still nothing. You're hungry. You wanted pizza. But there's no one to answer. You did your part—you asked. But the kitchen wasn't there.
+You call customer support. The phone rings. And rings. And rings. No one picks up. You wait. Hold music. Five minutes. Ten. Still no answer. You did your part—you called. But nobody was there to answer.
 
 In software, that's when the **server is down**. Your client sends a request. "Give me this page." But no server answers. Maybe the server crashed. Maybe the company has a problem. Maybe the internet route is broken. You see: "Cannot connect." "Site is unavailable." "Try again later." The client did its job. It asked. But the server wasn't there to answer. That's why "server down" means no service. No answer. No response.
 
@@ -98,7 +96,7 @@ In software, that's when the **server is down**. Your client sends a request. "G
 - **Server** = the one who answers (a computer that has data and sends it to you).
 - You never go to the server. The server never comes to you. You communicate through messages.
 - Every click, every search, every video play = client asks, server answers.
-- If the server is down, the client gets no answer—like a closed restaurant.
+- If the server is down, the client gets no answer—like calling support and no one picks up.
 
 ---
 

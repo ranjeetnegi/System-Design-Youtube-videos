@@ -111,4 +111,4 @@ Linearizability has another name: **atomic consistency**. And it's equivalent to
 
 ## Next Video
 
-Next: **Network partition.** What happens when the link fails? Two houses. One road. A tree falls. They can't talk. In distributed systems, that's not rare. It's inevitable. See you there.
+You know linearizability, causal, and eventual consistency. But what happens when YOUR OWN write disappears? You update your profile. Refresh. Old name. That's a read-your-writes violation. Next: **Database read-your-writes consistency**—why your own changes should always be visible to you. See you there.

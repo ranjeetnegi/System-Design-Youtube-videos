@@ -6,29 +6,25 @@
 
 ## Hook (20-30 seconds)
 
-Every click. Every search. Every like. Every video play. Every time you add something to a cart. Every time you send a message. They all share one secret: **a question and an answer.** You ask. The internet answers. That's it. In tech, we call them **request** and **response**. And once you see it, you'll see it everywhere. On every app. Every website. Every single time you use the internet. It's the same pattern. Over and over. Let me show you. And here's the crazy part—it's exactly like ordering food.
+Every click. Every search. Every like. Every video play. Every time you add something to a cart. Every time you send a message. They all share one secret: **a question and an answer.** You ask. The internet answers. That's it. In tech, we call them **request** and **response**. And once you see it, you'll see it everywhere. On every app. Every website. Every single time you use the internet. It's the same pattern. Over and over. Let me show you. And here's the crazy part—it's exactly like ordering something online.
 
 ---
 
 ## The Big Analogy
 
-You sit at a restaurant. The waiter comes. The conversation starts.
+You open Amazon. You find a pair of headphones. You click "Buy Now."
 
-**You say:** "I want one margherita pizza and a lemonade."
+That's your **request**. You asked for something. You didn't just think about it. You clicked. You made a request.
 
-That's your **request**. You asked for something. You didn't just think it. You said it. You made a request.
+**Amazon's system starts working.** It doesn't respond immediately. There's a pause. Somewhere, a computer is checking: Is this item in stock? Is your payment valid? What's your shipping address?
 
-**The waiter goes to the kitchen.** He doesn't come back immediately. There's a pause. The kitchen is working.
+**Amazon sends back a confirmation page.** "Order placed! Delivery by Thursday." But wait—it also asks: "Would you like to add a protection plan?" That's another request. From Amazon to you. They need more information. You click "No thanks." Another request from you. Back and forth.
 
-**The waiter returns.** "What size pizza would you like—small, medium, or large?"
+**Two days later, the package arrives at your door.** That's your **response**. You got what you asked for.
 
-That's another request. From the kitchen to you. They need more information. You answer: "Large." Another request from you. Back and forth.
+**You open the box.** Are these the right headphones? Is the color correct? You're validating the response. In software, we do the same. Did we get what we asked for? Is it correct?
 
-**A few minutes later, the waiter brings the pizza and the lemonade.** Hot. Ready. That's your **response**. You got what you asked for.
-
-**You check the plate.** Is it the right pizza? Is the lemonade there? You're validating the response. In software, we do the same. Did we get what we asked for? Is it correct?
-
-This back-and-forth—request, response, request, response—this IS the internet. Every conversation online works this way. You ask. The server answers. You ask again. The server answers again. No request? No response. You can't get food without asking first. You can't get data without requesting it.
+This back-and-forth—request, response, request, response—this IS the internet. Every conversation online works this way. You ask. The server answers. You ask again. The server answers again. No request? No response. You can't get a product without ordering first. You can't get data without requesting it.
 
 ---
 
@@ -123,7 +119,7 @@ You send a request. "Give me this page." You wait. One second. Two seconds. Five
 
 ## What Could Go Wrong? (Mini-Story)
 
-You order pizza. The waiter writes it down. The waiter goes to the kitchen. You wait. Ten minutes. Twenty. You're hungry. You wave at the waiter. "Where's my pizza?" The waiter checks. The waiter forgot to give the order to the chef. The chef never got it. You're waiting for a response that will never come. No one is bringing your food. The request was sent. The response was never made.
+You order headphones online. You click "Buy Now." The page shows a loading spinner. You wait. Five seconds. Ten. Thirty. The spinner keeps spinning. You refresh. "Order failed. Please try again." You try again. Same spinner. Same failure. What happened? The system accepted your click. Your request was sent. But something in the payment pipeline broke. The server never confirmed. You're staring at a screen, waiting for a response that will never come.
 
 In software, that's a **timeout** or **no response**. Your request went out. But the server didn't respond in time. Maybe it was overloaded. Maybe the network failed. Maybe the server crashed. You see "Request failed." "Try again." "Connection lost." Always have a plan for when the response never comes. Retry. Show a message. Don't leave the user staring at a loading spinner forever.
 
@@ -147,4 +143,4 @@ In software, that's a **timeout** or **no response**. Your request went out. But
 
 ## Next Video
 
-You send requests. The server sends responses. But who decides *how* you're allowed to ask? Who controls what you can and cannot request? You can't just yell "give me everything" and get it. There are rules. A format. A menu. That's the **API**—the waiter and the menu of the internet. Next video: What is an API? You'll see why every app uses one.
+You send requests. The server sends responses. But who decides *how* you're allowed to ask? Who controls what you can and cannot request? You can't just yell "give me everything" and get it. There are rules. A format. A contract. That's the **API**—the rulebook of the internet. Next video: What is an API? You'll see why every app uses one.

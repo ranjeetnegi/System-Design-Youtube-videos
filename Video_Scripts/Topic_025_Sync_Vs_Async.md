@@ -146,4 +146,4 @@ Async. The event loop. JavaScript doesn't wait. It says, "Start this, tell me wh
 
 ## Next Video
 
-Now that you know sync vs async, ever wondered what happens when your browser actually talks to a server? What are GET, POST, PUT, DELETE? Think of a library—and we'll unpack it next!
+You now know the building blocks: systems, servers, APIs, databases, scale, latency, processes, caching, queues, sync vs async. But how do you PUT THEM TOGETHER? How do you think about a full system? That's **system design**—the blueprint before the code. Next: What is system design? Interview vs real world. The most important skill you'll learn.

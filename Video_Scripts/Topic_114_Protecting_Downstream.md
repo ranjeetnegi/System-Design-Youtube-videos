@@ -131,4 +131,4 @@ Amazon Prime Day taught the industry a hard lesson. Early years had outages. Tra
 
 ## Next Video
 
-Next: **What is system design?** The blueprint before the bricks. Interview vs. real world. Stay tuned.
+You've mastered APIs, authentication, and rate limiting. Now the real challenge: what happens when your data lives on MULTIPLE servers? When they disagree? Next: **Consistency in distributed systems**—the fundamental tension that shapes every design decision. See you there.

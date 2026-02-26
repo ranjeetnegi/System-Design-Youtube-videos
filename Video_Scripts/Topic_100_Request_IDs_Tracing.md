@@ -138,4 +138,4 @@ Uber's distributed tracing system processes 150 million traces per day. Without 
 
 ## Next Video
 
-That's our last topic in this section. You've covered caching, CDNs, APIs, and observability. Great foundation for system design. See you in the next section!
+REST is great. But is it always the best choice? What if you need blazing-fast communication between internal services? Binary, compact, typed? Next: **gRPC vs REST**—when to use which. One's like writing a letter. The other's like a phone call with a strict protocol. See you there.
